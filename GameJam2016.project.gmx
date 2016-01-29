@@ -8,11 +8,13 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\enrique</sprite>
+    <sprite>sprites\berny</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\object1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
