@@ -46,6 +46,11 @@
     <script>scripts\initGlobalVariables.gml</script>
     <script>scripts\escapeDevil.gml</script>
     <script>scripts\devilMovement.gml</script>
+    <scripts name="knifeBalanceMiniGame">
+      <script>scripts\initKnifeBalance.gml</script>
+      <script>scripts\movePaddleLeft.gml</script>
+      <script>scripts\movePaddleRight.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -53,26 +58,26 @@
     <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
-   <object>objects\ball_obj</object>
-   <object>objects\game_play_button_obj</object>
-   <object>objects\keyPressedMiniGame_obj</object>
-   <object>objects\ballNoMove_obj</object>
-   <object>objects\score_obj</object>
-   <object>objects\player_obj</object>
-   <object>objects\game_title_obj</object>
-   <object>objects\chicken_obj</object>
-   <object>objects\time_obj</object>
-   <object>objects\miniGameController</object>
-   <object>objects\gameController</object>
-   <object>objects\devil_obj</object>
-   <object>objects\obj_knife</object>
-   <object>objects\obj_hand</object>
-   <object>objects\static_parent_obj</object>
-   <object>objects\dynamic_parent_obj</object>
-   <object>objects\obj_wall</object>
-   <object>objects\time_minigame_obj</object>
-   <object>objects\minigame_wall</object>
-   <object>objects\knifeBalanceMiniGame_obj</object>
+    <object>objects\ball_obj</object>
+    <object>objects\game_play_button_obj</object>
+    <object>objects\keyPressedMiniGame_obj</object>
+    <object>objects\ballNoMove_obj</object>
+    <object>objects\score_obj</object>
+    <object>objects\player_obj</object>
+    <object>objects\game_title_obj</object>
+    <object>objects\chicken_obj</object>
+    <object>objects\time_obj</object>
+    <object>objects\miniGameController</object>
+    <object>objects\gameController</object>
+    <object>objects\devil_obj</object>
+    <object>objects\obj_knife</object>
+    <object>objects\obj_hand</object>
+    <object>objects\static_parent_obj</object>
+    <object>objects\dynamic_parent_obj</object>
+    <object>objects\obj_wall</object>
+    <object>objects\time_minigame_obj</object>
+    <object>objects\minigame_wall</object>
+    <object>objects\knifeBalanceMiniGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
