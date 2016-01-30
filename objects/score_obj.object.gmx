@@ -49,12 +49,17 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_font(font0);
-draw_set_color(c_black);
 
 //Draws player 1 score.
+drawScoreFromPlayer(1);
+draw_set_color(c_black);
 draw_text(0,0,"Score: "+string(global.score1))
+
 //Draw player 2 score.
+drawScoreFromPlayer(2);
+draw_set_color(c_black);
 draw_text(600,0,"Score: "+string(global.score2));
+
 </string>
           </argument>
         </arguments>

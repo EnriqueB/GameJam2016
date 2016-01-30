@@ -2,9 +2,15 @@ draw_set_font(font_Jing_Jing);
 draw_set_color(c_black);
 
 if(x < view_xview[1]) {
+    draw_sprite(blank_tile, -1, 10, 50);
     draw_text(10, 50, global.keys[0, 0]);
+   
+    draw_sprite(blank_tile, -1, 40, 50);
     draw_text(40, 50, global.keys[0, 1]);
+   
+    draw_sprite(blank_tile, -1, 70, 50);
     draw_text(70, 50, global.keys[0, 2]);
+    
     draw_text(100, 50, global.keys[0, 3]);
     draw_text(130, 50, global.keys[0, 4]);
     draw_text(160, 50, global.keys[0, 5]);
