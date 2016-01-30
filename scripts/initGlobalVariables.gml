@@ -3,7 +3,7 @@
 
 //Minigame dimensions
 global.xPosition = 50;
-global.yPosition = 50;
+global.yPosition = 100;
 global.mgWidth = 400;
 global.mgHeight = 400;
 
@@ -43,4 +43,7 @@ globalvar game1;
 globalvar game2;
 global.p1Playing = false;
 global.p2Playing = false;
+
+//Devil Escape mini game
+global.devilSpeed = 3;
 

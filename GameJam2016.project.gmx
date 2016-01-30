@@ -12,6 +12,9 @@
     <sprite>sprites\rectangle_sp</sprite>
     <sprite>sprites\play_button</sprite>
     <sprite>sprites\blank_tile</sprite>
+    <sprite>sprites\knife</sprite>
+    <sprite>sprites\hand</sprite>
+    <sprite>sprites\wall</sprite>
     <sprite>sprites\frame_minigame</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -34,6 +37,8 @@
       <script>scripts\drawScoreFromPlayer.gml</script>
     </scripts>
     <script>scripts\initGlobalVariables.gml</script>
+    <script>scripts\escapeDevil.gml</script>
+    <script>scripts\devilMovement.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -52,6 +57,13 @@
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
     <object>objects\gameController</object>
+    <object>objects\devil_obj</object>
+    <object>objects\knife_obj</object>
+    <object>objects\hand_obj</object>
+    <object>objects\static_parent_obj</object>
+    <object>objects\dynamic_parent_obj</object>
+    <object>objects\obj_wall</object>
+    <object>objects\time_minigame_obj</object>
     <object>objects\minigame_wall</object>
   </objects>
   <rooms name="rooms">
