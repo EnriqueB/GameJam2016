@@ -36,6 +36,11 @@
       <script>scripts\drawScoreFromPlayer.gml</script>
     </scripts>
     <script>scripts\initGlobalVariables.gml</script>
+    <scripts name="knifeBalanceMiniGame">
+      <script>scripts\initKnifeBalance.gml</script>
+      <script>scripts\movePaddleLeft.gml</script>
+      <script>scripts\movePaddleRight.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -54,11 +59,12 @@
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
     <object>objects\gameController</object>
-    <object>objects\knife_obj</object>
-    <object>objects\hand_obj</object>
+    <object>objects\obj_knife</object>
+    <object>objects\obj_hand</object>
     <object>objects\static_parent_obj</object>
     <object>objects\dynamic_parent_obj</object>
     <object>objects\obj_wall</object>
+    <object>objects\knifeBalanceMiniGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
