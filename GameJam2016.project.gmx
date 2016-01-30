@@ -18,6 +18,10 @@
     <sprite>sprites\wizard_right_sp</sprite>
     <sprite>sprites\wizard_up_sp</sprite>
     <sprite>sprites\wizard_left_sp</sprite>
+    <sprite>sprites\chicken_left_sp</sprite>
+    <sprite>sprites\chicken_right_sp</sprite>
+    <sprite>sprites\chicken_up_sp</sprite>
+    <sprite>sprites\chicken_down_sp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
