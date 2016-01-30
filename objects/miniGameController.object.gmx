@@ -27,8 +27,10 @@
             <kind>1</kind>
             <string>if (x &lt; view_xview[1] &amp;&amp; global.state_player1 == 0) {
     global.state_player1 = 1;
-
+    global.id_frame_player1 = instance_create(13, 100, minigame_wall);
     catchChicken();
+    global.minigame_timer = instance_create(100,100, time_minigame_obj);
+    with(global.minigame_timer) time = 10;
 }
 </string>
           </argument>
@@ -82,7 +84,7 @@
             <kind>1</kind>
             <string>if (x &lt; view_xview[1] &amp;&amp; global.state_player1 == 0) {
     global.state_player1 = 1;
-    global.id_frame_player1 = instance_create(0, 100, minigame_wall);
+    global.id_frame_player1 = instance_create(13, 100, minigame_wall);
     global.game1 = instance_create(100, 100, keyPressedMiniGame_obj);
     global.minigame_timer = instance_create(100,100, time_minigame_obj);
     with(global.minigame_timer) time = 10;
