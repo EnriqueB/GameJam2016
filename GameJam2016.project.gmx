@@ -40,14 +40,17 @@
   <objects name="objects">
     <object>objects\ball_obj</object>
     <object>objects\ballNoMove_obj</object>
-    <object>objects\miniGameController_obj</object>
     <object>objects\score_obj</object>
     <object>objects\player_obj</object>
     <object>objects\game_title_obj</object>
     <object>objects\game_play_button_obj</object>
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
+<<<<<<< HEAD
     <object>objects\gameController</object>
+=======
+    <object>objects\keyPressedMiniGame_obj</object>
+>>>>>>> 19f351e0a19eb29896847dec752b74fbe3bfdb44
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
