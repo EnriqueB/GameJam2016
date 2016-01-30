@@ -10,7 +10,7 @@ if (int_player == 1) {
     updated_score = validateAndReturnScore(global.score1 + int_score_change);
     if ( updated_score == -1 ) {
         // player won
-        global1.score1 = 1000000;
+        global.score1 = 1000000;
     } else {
         // just update score
         global.score1 = updated_score;  
@@ -22,6 +22,7 @@ if (int_player == 1) {
     updated_score = validateAndReturnScore(global.score2 + int_score_change);
     if ( updated_score == -1 ) {
         // player won
+        global.score2 = 1000000;
     } else {
         // just update score
         global.score2 = updated_score;  
