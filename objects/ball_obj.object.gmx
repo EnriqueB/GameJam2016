@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>if (x &lt; view_xview[1]) {
-    instance_create(100, 100, keyPressedMiniGame_obj);
+    global.game1 = instance_create(100, 100, keyPressedMiniGame_obj);
 } else {
-    instance_create(100 + view_xview[1], 100, keyPressedMiniGame_obj);
+    global.game2 = instance_create(100 + view_xview[1], 100, keyPressedMiniGame_obj);
 }
 </string>
           </argument>
