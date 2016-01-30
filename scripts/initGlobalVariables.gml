@@ -7,6 +7,13 @@ global.yPosition = 50;
 global.mgWidth = 400;
 global.mgHeight = 400;
 
+//variable for game time in seconds
+global.time = 120;
+
+//Int variable to indicate in which state is the player (in minigame, choosing minigame...)
+global.state_player1 = 0;
+global.state_player2 = 0;
+
 //chicken game global variables
 global.chickenSpeed = 3;
 

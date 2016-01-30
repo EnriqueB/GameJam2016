@@ -24,6 +24,11 @@ if(abs(difX)<20 && abs(difY)<20){
     with(instance_nearest(x, y, player_obj)){
         instance_destroy();
     }
+    if(playerValue == 1) {
+        global.state_player1 = 0;
+    } else {
+        global.state_player2 = 0;
+    }
     instance_destroy();
 }
 

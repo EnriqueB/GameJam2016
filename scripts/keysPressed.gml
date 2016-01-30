@@ -99,6 +99,7 @@ if(global.indexLetter == 9) {
     updateScore(1, 100);
     global.indexLetter = 0;
     global.p1Playing = false;
+    global.state_player1 = 0;
     with(global.game1) instance_destroy();
 }
 
@@ -106,5 +107,6 @@ if(global.indexNumber == 9) {
     updateScore(2, 100);
     global.indexNumber = 0;
     global.p2Playing = false;
+    global.state_player2 = 0;
     with(global.game2) instance_destroy();
 }
