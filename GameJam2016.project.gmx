@@ -16,16 +16,16 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\playerMovement.gml</script>
+    <script>scripts\keysPressed.gml</script>
     <scripts name="keyPressedMiniGame">
       <script>scripts\keysPressed.gml</script>
-      <script>scripts\drawKeyPressedMiniGame.gml</script>
+      <script>scripts\keysPressed.gml</script>
       <script>scripts\setKeys.gml</script>
       <script>scripts\chooseRandomLetterP1.gml</script>
       <script>scripts\chooseRandomLetterP2.gml</script>
     </scripts>
     <scripts name="score">
-      <script>scripts\updateScore.gml</script>
+      <script>scripts\chooseRandomLetterP2.gml</script>
       <script>scripts\validateAndReturnScore.gml</script>
       <script>scripts\drawScoreFromPlayer.gml</script>
     </scripts>
