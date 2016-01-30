@@ -3,16 +3,21 @@
 
 //Minigame dimensions
 global.xPosition = 50;
-global.yPosition = 50;
+global.yPosition = 100;
 global.mgWidth = 400;
 global.mgHeight = 400;
 
 //variable for game time in seconds
 global.time = 120;
+globalvar minigame_timer;
 
 //Int variable to indicate in which state is the player (in minigame, choosing minigame...)
 global.state_player1 = 0;
 global.state_player2 = 0;
+
+//id variables for the frames of the minigame windows
+global.id_frame_player1 = 99999;
+global.id_frame_player2 = 99999;
 
 //chicken game global variables
 global.chickenSpeed = 3;
@@ -60,6 +65,6 @@ global.knife1_x = global.hand1_x + global.knife_half_w;
 global.knife2_x = global.hand2_x + global.knife_half_w;
 global.knife_y  = global.hand_y - (global.knife_h + 5);
 
-
-
+//Devil Escape mini game
+global.devilSpeed = 3;
 
