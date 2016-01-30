@@ -53,7 +53,7 @@
             <kind>1</kind>
             <string>global.time -=1;
 if(global.time == 0) {
-    game_end();
+    room_goto(room2);
 } else {
     alarm[0] = room_speed;
 }
