@@ -10,6 +10,7 @@
     <sprite>sprites\enrique</sprite>
     <sprite>sprites\ball</sprite>
     <sprite>sprites\rectangle_sp</sprite>
+    <sprite>sprites\play_button</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,14 +19,18 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
+    <font>fonts\font_Jing_Jing</font>
   </fonts>
   <objects name="objects">
     <object>objects\ball_obj</object>
     <object>objects\ballNoMove_obj</object>
     <object>objects\miniGameController_obj</object>
     <object>objects\score_obj</object>
+    <object>objects\game_title_obj</object>
+    <object>objects\game_play_button_obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
