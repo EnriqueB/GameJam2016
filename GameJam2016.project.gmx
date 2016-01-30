@@ -15,16 +15,14 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
     <scripts name="keyPressedMiniGame">
       <script>scripts\keysPressed.gml</script>
-      <script>scripts\setKeys.gml</script>
       <script>scripts\drawKeyPressedMiniGame.gml</script>
+      <script>scripts\setKeys.gml</script>
       <script>scripts\chooseRandomLetterP1.gml</script>
       <script>scripts\chooseRandomLetterP2.gml</script>
     </scripts>
-    <script>scripts\chickenMovement.gml</script>
     <scripts name="score">
       <script>scripts\updateScore.gml</script>
       <script>scripts\validateAndReturnScore.gml</script>
@@ -46,11 +44,8 @@
     <object>objects\game_play_button_obj</object>
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
-<<<<<<< HEAD
     <object>objects\gameController</object>
-=======
     <object>objects\keyPressedMiniGame_obj</object>
->>>>>>> 19f351e0a19eb29896847dec752b74fbe3bfdb44
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
