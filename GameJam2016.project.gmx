@@ -22,6 +22,7 @@
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\font_Jing_Jing</font>
+    <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
     <object>objects\ball_obj</object>
@@ -31,6 +32,8 @@
     <object>objects\player_obj</object>
     <object>objects\game_title_obj</object>
     <object>objects\game_play_button_obj</object>
+    <object>objects\time_obj</object>
+    <object>objects\miniGameController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
