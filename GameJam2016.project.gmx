@@ -15,9 +15,10 @@
     <sprite>sprites\knife</sprite>
     <sprite>sprites\hand</sprite>
     <sprite>sprites\wall</sprite>
-    <sprite>sprites\wizard_right_sp</sprite>
+    <sprite>sprites\frame_minigame</sprite>
     <sprite>sprites\wizard_up_sp</sprite>
     <sprite>sprites\wizard_left_sp</sprite>
+    <sprite>sprites\wizard_right_sp</sprite>
     <sprite>sprites\chicken_left_sp</sprite>
     <sprite>sprites\chicken_right_sp</sprite>
     <sprite>sprites\chicken_up_sp</sprite>
@@ -52,24 +53,26 @@
     <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
-    <object>objects\ball_obj</object>
-    <object>objects\game_play_button_obj</object>
-    <object>objects\keyPressedMiniGame_obj</object>
-    <object>objects\ballNoMove_obj</object>
-    <object>objects\score_obj</object>
-    <object>objects\player_obj</object>
-    <object>objects\game_title_obj</object>
-    <object>objects\chicken_obj</object>
-    <object>objects\time_obj</object>
-    <object>objects\miniGameController</object>
-    <object>objects\gameController</object>
-    <object>objects\devil_obj</object>
-    <object>objects\knife_obj</object>
-    <object>objects\hand_obj</object>
-    <object>objects\static_parent_obj</object>
-    <object>objects\dynamic_parent_obj</object>
-    <object>objects\obj_wall</object>
-    <object>objects\time_minigame_obj</object>
+   <object>objects\ball_obj</object>
+   <object>objects\game_play_button_obj</object>
+   <object>objects\keyPressedMiniGame_obj</object>
+   <object>objects\ballNoMove_obj</object>
+   <object>objects\score_obj</object>
+   <object>objects\player_obj</object>
+   <object>objects\game_title_obj</object>
+   <object>objects\chicken_obj</object>
+   <object>objects\time_obj</object>
+   <object>objects\miniGameController</object>
+   <object>objects\gameController</object>
+   <object>objects\devil_obj</object>
+   <object>objects\obj_knife</object>
+   <object>objects\obj_hand</object>
+   <object>objects\static_parent_obj</object>
+   <object>objects\dynamic_parent_obj</object>
+   <object>objects\obj_wall</object>
+   <object>objects\time_minigame_obj</object>
+   <object>objects\minigame_wall</object>
+   <object>objects\knifeBalanceMiniGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
