@@ -82,6 +82,7 @@
             <kind>1</kind>
             <string>if (x &lt; view_xview[1] &amp;&amp; global.state_player1 == 0) {
     global.state_player1 = 1;
+    global.id_frame_player1 = instance_create(75, 100, minigame_wall);
     global.game1 = instance_create(100, 100, keyPressedMiniGame_obj);
 }
 </string>
