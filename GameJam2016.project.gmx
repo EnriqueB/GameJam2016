@@ -38,6 +38,7 @@
     <object>objects\player_obj</object>
     <object>objects\game_title_obj</object>
     <object>objects\game_play_button_obj</object>
+    <object>objects\chicken_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
