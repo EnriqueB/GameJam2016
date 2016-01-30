@@ -55,8 +55,8 @@
             <string>if (x &lt; view_xview[1] &amp;&amp; global.state_player1 == 0) {
     global.state_player1 = 1;
     global.game1 = instance_create(100, 100, keyPressedMiniGame_obj);
-    timer = instance_create(100,100, time_minigame_obj);
-    with(timer) time = 10;
+    global.minigame_timer = instance_create(100,100, time_minigame_obj);
+    with(global.minigame_timer) time = 10;
 }
 </string>
           </argument>
@@ -83,8 +83,8 @@
             <string>if (x &gt; view_xview[1] &amp;&amp; global.state_player2 == 0) {
     global.state_player2 = 1;
     global.game2 = instance_create(view_xview[1]+100, 100, keyPressedMiniGame_obj);
-    timer = instance_create(view_xview[1]+100,100, time_minigame_obj);
-    with(timer) time = 10;
+    global.minigame_timer = instance_create(view_xview[1]+100,100, time_minigame_obj);
+    with(global.minigame_timer) time = 10;
 }
 </string>
           </argument>
