@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\wizard_down_sp</sprite>
     <sprite>sprites\enrique</sprite>
     <sprite>sprites\ball</sprite>
     <sprite>sprites\rectangle_sp</sprite>
@@ -15,7 +15,9 @@
     <sprite>sprites\knife</sprite>
     <sprite>sprites\hand</sprite>
     <sprite>sprites\wall</sprite>
-    <sprite>sprites\frame_minigame</sprite>
+    <sprite>sprites\wizard_right_sp</sprite>
+    <sprite>sprites\wizard_up_sp</sprite>
+    <sprite>sprites\wizard_left_sp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -64,7 +66,6 @@
     <object>objects\dynamic_parent_obj</object>
     <object>objects\obj_wall</object>
     <object>objects\time_minigame_obj</object>
-    <object>objects\minigame_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

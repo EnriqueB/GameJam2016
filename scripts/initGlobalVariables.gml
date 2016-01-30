@@ -9,6 +9,7 @@ global.mgHeight = 400;
 
 //variable for game time in seconds
 global.time = 120;
+globalvar minigame_timer;
 
 //Int variable to indicate in which state is the player (in minigame, choosing minigame...)
 global.state_player1 = 0;

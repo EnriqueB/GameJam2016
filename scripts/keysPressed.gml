@@ -1,5 +1,5 @@
 // Check if letters are pressed and correspond to the random order chosen before by the minigame script
-if(global.p1Playing) {
+if(global.p1Playing && x < view_xview[1]) {
     if(keyboard_check_pressed(ord('A')) && global.keys[0,global.indexLetter] == 'A') {
         global.indexLetter++;
     }
@@ -38,7 +38,7 @@ if(global.p1Playing) {
 }
 
 // Check if numbers are pressed and correspond to the random order chosen before by the minigame script
-if(global.p2Playing) {
+if(global.p2Playing && x > view_xview[1]) {
     if(keyboard_check_pressed(ord('7')) && global.keys[1,global.indexNumber] == '7') {
         global.indexNumber++;
     }
@@ -102,6 +102,7 @@ if(global.indexLetter == 9) {
     global.state_player1 = 0;
     with(global.id_frame_player1) instance_destroy();
     with(global.game1) instance_destroy();
+    with(global.minigame_timer) instance_destroy();
 }
 
 if(global.indexNumber == 9) {
@@ -111,4 +112,5 @@ if(global.indexNumber == 9) {
     global.state_player2 = 0;
     with(global.id_frame_player2) instance_destroy();
     with(global.game2) instance_destroy();
+    with(global.minigame_timer) instance_destroy();
 }
