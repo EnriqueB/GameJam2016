@@ -15,9 +15,16 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\keysPressed.gml</script>
     <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
+    <scripts name="keyPressedMiniGame">
+      <script>scripts\keysPressed.gml</script>
+      <script>scripts\setKeys.gml</script>
+      <script>scripts\drawKeyPressedMiniGame.gml</script>
+      <script>scripts\chooseRandomLetterP1.gml</script>
+      <script>scripts\chooseRandomLetterP2.gml</script>
+    </scripts>
+    <script>scripts\chickenMovement.gml</script>
     <scripts name="score">
       <script>scripts\updateScore.gml</script>
       <script>scripts\validateAndReturnScore.gml</script>
@@ -28,15 +35,18 @@
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\font_Jing_Jing</font>
+    <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
     <object>objects\ball_obj</object>
     <object>objects\ballNoMove_obj</object>
-    <object>objects\miniGameController_obj</object>
     <object>objects\score_obj</object>
     <object>objects\player_obj</object>
     <object>objects\game_title_obj</object>
     <object>objects\game_play_button_obj</object>
+    <object>objects\time_obj</object>
+    <object>objects\miniGameController</object>
+    <object>objects\keyPressedMiniGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
