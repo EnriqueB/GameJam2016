@@ -19,6 +19,12 @@
     <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
     <script>scripts\chickenMovement.gml</script>
+    <scripts name="score">
+      <script>scripts\updateScore.gml</script>
+      <script>scripts\validateAndReturnScore.gml</script>
+      <script>scripts\drawScoreFromPlayer.gml</script>
+    </scripts>
+    <script>scripts\initGlobalVariables.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
