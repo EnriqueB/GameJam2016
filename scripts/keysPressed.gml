@@ -23,24 +23,28 @@ if(keyboard_check(ord('E')) && global.keys[0,global.indexLetter] == 'E') {
     global.indexLetter++;
 }
 
-if(keyboard_check(ord('Z')) && global.keys[0,global.indexLetter] == 'Z') {
+if(keyboard_check(ord('1')) && global.keys[0,global.indexLetter] == '1') {
     global.indexLetter++;
 }
 
-if(keyboard_check(ord('X')) && global.keys[0,global.indexLetter] == 'X') {
+if(keyboard_check(ord('2')) && global.keys[0,global.indexLetter] == '2') {
     global.indexLetter++;
 }
 
-if(keyboard_check(ord('C')) && global.keys[0,global.indexLetter] == 'C') {
+if(keyboard_check(ord('3')) && global.keys[0,global.indexLetter] == '3') {
     global.indexLetter++;
 }
 
 // Check if numbers are pressed and correspond to the random order chosen before by the minigame script
-if(keyboard_check(ord('T')) && global.keys[1,global.indexNumber] == 'T') {
+if(keyboard_check(ord('7')) && global.keys[1,global.indexNumber] == '7') {
     global.indexNumber++;
 }
 
-if(keyboard_check(ord('Y')) && global.keys[1,global.indexNumber] == 'Y') {
+if(keyboard_check(ord('8')) && global.keys[1,global.indexNumber] == '8') {
+    global.indexNumber++;
+}
+
+if(keyboard_check(ord('9')) && global.keys[1,global.indexNumber] == '9') {
     global.indexNumber++;
 }
 
@@ -48,11 +52,11 @@ if(keyboard_check(ord('U')) && global.keys[1,global.indexNumber] == 'U') {
     global.indexNumber++;
 }
 
-if(keyboard_check(ord('G')) && global.keys[1,global.indexNumber] == 'G') {
+if(keyboard_check(ord('I')) && global.keys[1,global.indexNumber] == 'I') {
     global.indexNumber++;
 }
 
-if(keyboard_check(ord('H')) && global.keys[1,global.indexNumber] == 'H') {
+if(keyboard_check(ord('O')) && global.keys[1,global.indexNumber] == 'O') {
     global.indexNumber++;
 }
 
@@ -60,15 +64,11 @@ if(keyboard_check(ord('J')) && global.keys[1,global.indexNumber] == 'J') {
     global.indexNumber++;
 }
 
-if(keyboard_check(ord('B')) && global.keys[1,global.indexNumber] == 'B') {
+if(keyboard_check(ord('K')) && global.keys[1,global.indexNumber] == 'K') {
     global.indexNumber++;
 }
 
-if(keyboard_check(ord('N')) && global.keys[1,global.indexNumber] == 'N') {
-    global.indexNumber++;
-}
-
-if(keyboard_check(ord('M')) && global.keys[1,global.indexNumber] == 'M') {
+if(keyboard_check(ord('L')) && global.keys[1,global.indexNumber] == 'L') {
     global.indexNumber++;
 }
     /*
