@@ -15,9 +15,10 @@
     <sprite>sprites\knife</sprite>
     <sprite>sprites\hand</sprite>
     <sprite>sprites\wall</sprite>
-    <sprite>sprites\wizard_right_sp</sprite>
+    <sprite>sprites\frame_minigame</sprite>
     <sprite>sprites\wizard_up_sp</sprite>
     <sprite>sprites\wizard_left_sp</sprite>
+    <sprite>sprites\wizard_right_sp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39,13 +40,13 @@
       <script>scripts\drawScoreFromPlayer.gml</script>
     </scripts>
     <script>scripts\initGlobalVariables.gml</script>
+    <script>scripts\escapeDevil.gml</script>
+    <script>scripts\devilMovement.gml</script>
     <scripts name="knifeBalanceMiniGame">
       <script>scripts\initKnifeBalance.gml</script>
       <script>scripts\movePaddleLeft.gml</script>
       <script>scripts\movePaddleRight.gml</script>
     </scripts>
-    <script>scripts\escapeDevil.gml</script>
-    <script>scripts\devilMovement.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -64,14 +65,15 @@
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
     <object>objects\gameController</object>
+    <object>objects\devil_obj</object>
     <object>objects\obj_knife</object>
     <object>objects\obj_hand</object>
     <object>objects\static_parent_obj</object>
     <object>objects\dynamic_parent_obj</object>
     <object>objects\obj_wall</object>
-    <object>objects\knifeBalanceMiniGame_obj</object>
-    <object>objects\devil_obj</object>
     <object>objects\time_minigame_obj</object>
+    <object>objects\minigame_wall</object>
+    <object>objects\knifeBalanceMiniGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
