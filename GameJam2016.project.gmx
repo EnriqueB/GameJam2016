@@ -65,6 +65,7 @@
     <object>objects\static_parent_obj</object>
     <object>objects\dynamic_parent_obj</object>
     <object>objects\obj_wall</object>
+    <object>objects\time_minigame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

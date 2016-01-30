@@ -14,6 +14,10 @@ global.time = 120;
 global.state_player1 = 0;
 global.state_player2 = 0;
 
+//id variables for the frames of the minigame windows
+global.id_frame_player1 = 99999;
+global.id_frame_player2 = 99999;
+
 //chicken game global variables
 global.chickenSpeed = 3;
 
