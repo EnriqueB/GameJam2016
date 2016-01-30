@@ -47,6 +47,7 @@
     <object>objects\game_play_button_obj</object>
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
+    <object>objects\gameController</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
