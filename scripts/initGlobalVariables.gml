@@ -8,7 +8,7 @@ global.mgWidth = 400;
 global.mgHeight = 400;
 
 //variable for game time in seconds
-global.time = 2;
+global.time = 120;
 globalvar minigame_timer1;
 globalvar minigame_timer2;
 
