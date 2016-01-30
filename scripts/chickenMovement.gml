@@ -103,3 +103,5 @@ else{
         y-=spd;
     }
 }
+//compare self position to player
+
