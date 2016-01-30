@@ -10,23 +10,23 @@ if (int_player == 1) {
     updated_score = validateAndReturnScore(global.score1 + int_score_change);
     if ( updated_score == -1 ) {
         // player won
-        global.score1 = 1000000;
+        global.scoreColor1 = global.scoreColorWin;
+        global.score1 = global.winningScore;
     } else {
         // just update score
         global.score1 = updated_score;  
     } 
-    drawScoreFromPlayer(1);
     
 } else if (int_player == 2) {
     
     updated_score = validateAndReturnScore(global.score2 + int_score_change);
     if ( updated_score == -1 ) {
         // player won
-        global.score2 = 1000000;
+        global.scoreColor2 = global.scoreColorWin;
+        global.score2 = global.winningScore;
     } else {
         // just update score
         global.score2 = updated_score;  
     }
-    drawScoreFromPlayer(2);
     
 }
