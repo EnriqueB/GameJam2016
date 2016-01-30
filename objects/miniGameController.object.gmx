@@ -117,7 +117,7 @@
     global.id_frame_player2 = instance_create(view_xview[1]+13, 100, minigame_wall);
     global.game2 = instance_create(view_xview[1]+100, 100, knifeBalanceMiniGame_obj);
     global.minigame_timer2 = instance_create(view_xview[1]+100,100, time_minigame_obj);
-    with(global.minigame_timer2) time = 10;
+    with(global.minigame_timer2) time = 7;
 }
 </string>
           </argument>
@@ -204,7 +204,7 @@
     global.id_frame_player1 = instance_create(13, 100, minigame_wall);
     global.game1 = instance_create(100, 100, knifeBalanceMiniGame_obj);
     global.minigame_timer1 = instance_create(100,100, time_minigame_obj);
-    with(global.minigame_timer1) time = 10;
+    with(global.minigame_timer1) time = 7;
 }
 </string>
           </argument>
