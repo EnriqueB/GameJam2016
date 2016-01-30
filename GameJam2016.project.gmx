@@ -25,6 +25,7 @@
       <script>scripts\setKeys.gml</script>
       <script>scripts\chooseRandomLetterP1.gml</script>
       <script>scripts\chooseRandomLetterP2.gml</script>
+      <script>scripts\drawSingleKey.gml</script>
     </scripts>
     <scripts name="score">
       <script>scripts\updateScore.gml</script>
