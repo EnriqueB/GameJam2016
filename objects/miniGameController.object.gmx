@@ -30,7 +30,7 @@
     global.id_frame_player1 = instance_create(13, 100, minigame_wall);
     catchChicken();
     global.minigame_timer1 = instance_create(100,100, time_minigame_obj);
-    with(global.minigame_timer1) time = 10;
+    with(global.minigame_timer1) time = 7;
 }
 </string>
           </argument>
@@ -95,6 +95,35 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="79">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (x &gt; view_xview[1] &amp;&amp; global.state_player2 == 0) {
+    global.state_player2 = 1;
+    global.id_frame_player2 = instance_create(view_xview[1]+13, 100, minigame_wall);
+    global.game2 = instance_create(view_xview[1]+100, 100, knifeBalanceMiniGame_obj);
+    global.minigame_timer2 = instance_create(view_xview[1]+100,100, time_minigame_obj);
+    with(global.minigame_timer2) time = 7;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="74">
       <action>
         <libid>1</libid>
@@ -146,7 +175,7 @@
     global.id_frame_player2 = instance_create(view_xview[1]+13, 100, minigame_wall);
     catchChicken();
     global.minigame_timer2 = instance_create(view_xview[1]+ 100,100, time_minigame_obj);
-    with(global.minigame_timer2) time = 10;
+    with(global.minigame_timer2) time = 7;
 }
 </string>
           </argument>
@@ -175,7 +204,7 @@
     global.id_frame_player1 = instance_create(13, 100, minigame_wall);
     global.game1 = instance_create(100, 100, knifeBalanceMiniGame_obj);
     global.minigame_timer1 = instance_create(100,100, time_minigame_obj);
-    with(global.minigame_timer1) time = 10;
+    with(global.minigame_timer1) time = 7;
 }
 </string>
           </argument>
@@ -205,35 +234,6 @@
     escapeDevil();
     global.minigame_timer1 = instance_create(100,100, time_minigame_obj);
     with(global.minigame_timer1) time = 7;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="10" enumb="85">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (x &gt; view_xview[1] &amp;&amp; global.state_player2 == 0) {
-    global.state_player2 = 1;
-    global.id_frame_player2 = instance_create(view_xview[1]+13, 100, minigame_wall);
-    global.game2 = instance_create(view_xview[1]+100, 100, knifeBalanceMiniGame_obj);
-    global.minigame_timer2 = instance_create(view_xview[1]+100,100, time_minigame_obj);
-    with(global.minigame_timer2) time = 10;
 }
 </string>
           </argument>

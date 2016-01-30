@@ -2,7 +2,7 @@
 ///Initializes random tilt, and speed of the paddle.
 
 dir = 1; // 1 means right and 0 means left
-alarm[0] = 200;
+alarm[0] = 208;
 
 ///Start game
 if(x < view_xview[1]){ // player 1    

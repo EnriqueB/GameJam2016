@@ -54,9 +54,11 @@ if(time == 0) {
     if(x &lt; view_xview[1]) {
         global.state_player1 = 0;
         with(global.game1) instance_destroy();
+        with(global.id_frame_player1) instance_destroy();
     } else {
         global.state_player2 = 0;
         with(global.game2) instance_destroy();
+        with(global.id_frame_player2) instance_destroy();
     }
     instance_destroy();
 } else {
