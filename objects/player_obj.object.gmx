@@ -83,10 +83,12 @@
     global.state_player1 = 0;
     with(global.id_frame_player1) instance_destroy();
     with(global.minigame_timer1) instance_destroy();
+    audio_stop_sound(global.player1SoundID);
 } else {
     global.state_player2 = 0;
     with(global.id_frame_player2) instance_destroy();
     with(global.minigame_timer2) instance_destroy();
+    audio_stop_sound(global.player2SoundID);
 }
 </string>
           </argument>

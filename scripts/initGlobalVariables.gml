@@ -49,3 +49,7 @@ global.p2Playing = false;
 //Devil Escape mini game
 global.devilSpeed = 3;
 
+//Sound global vairables
+global.player1SoundID = 0;
+global.player2SoundID = 0;
+
