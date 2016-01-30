@@ -102,6 +102,7 @@ if(global.indexLetter == 9) {
     global.state_player1 = 0;
     with(global.id_frame_player1) instance_destroy();
     with(global.game1) instance_destroy();
+    with(global.minigame_timer) instance_destroy();
 }
 
 if(global.indexNumber == 9) {
@@ -111,4 +112,5 @@ if(global.indexNumber == 9) {
     global.state_player2 = 0;
     with(global.id_frame_player2) instance_destroy();
     with(global.game2) instance_destroy();
+    with(global.minigame_timer) instance_destroy();
 }
