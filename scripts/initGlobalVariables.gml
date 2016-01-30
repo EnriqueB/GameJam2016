@@ -26,4 +26,10 @@ global.score2Y = 0;
 globalvar keys;
 globalvar indexLetter;
 globalvar indexNumber;
+globalvar p1Playing;
+globalvar p2Playing;
+globalvar game1;
+globalvar game2;
+global.p1Playing = false;
+global.p2Playing = false;
 
