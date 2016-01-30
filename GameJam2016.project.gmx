@@ -40,12 +40,12 @@
   </fonts>
   <objects name="objects">
     <object>objects\ball_obj</object>
+    <object>objects\game_play_button_obj</object>
     <object>objects\keyPressedMiniGame_obj</object>
     <object>objects\ballNoMove_obj</object>
     <object>objects\score_obj</object>
     <object>objects\player_obj</object>
     <object>objects\game_title_obj</object>
-    <object>objects\game_play_button_obj</object>
     <object>objects\chicken_obj</object>
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
