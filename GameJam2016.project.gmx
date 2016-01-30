@@ -18,6 +18,12 @@
     <script>scripts\keysPressed.gml</script>
     <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
+    <script>scripts\script3.gml</script>
+    <scripts name="score">
+      <script>scripts\updateScore.gml</script>
+      <script>scripts\validateAndReturnScore.gml</script>
+      <script>scripts\drawScoreFromPlayer.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
