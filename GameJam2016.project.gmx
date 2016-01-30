@@ -32,6 +32,8 @@
       <script>scripts\drawScoreFromPlayer.gml</script>
     </scripts>
     <script>scripts\initGlobalVariables.gml</script>
+    <script>scripts\escapeDevil.gml</script>
+    <script>scripts\devilMovement.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -50,6 +52,7 @@
     <object>objects\time_obj</object>
     <object>objects\miniGameController</object>
     <object>objects\gameController</object>
+    <object>objects\devil_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
