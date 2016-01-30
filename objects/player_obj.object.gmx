@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>200</string>
+            <string>210</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -81,8 +81,12 @@
             <kind>1</kind>
             <string>if(x &lt; view_xview[1]) {
     global.state_player1 = 0;
+    with(global.id_frame_player1) instance_destroy();
+    with(global.minigame_timer1) instance_destroy();
 } else {
     global.state_player2 = 0;
+    with(global.id_frame_player2) instance_destroy();
+    with(global.minigame_timer2) instance_destroy();
 }
 </string>
           </argument>

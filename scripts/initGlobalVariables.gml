@@ -9,7 +9,8 @@ global.mgHeight = 400;
 
 //variable for game time in seconds
 global.time = 120;
-globalvar minigame_timer;
+globalvar minigame_timer1;
+globalvar minigame_timer2;
 
 //Int variable to indicate in which state is the player (in minigame, choosing minigame...)
 global.state_player1 = 0;
@@ -44,26 +45,6 @@ globalvar game1;
 globalvar game2;
 global.p1Playing = false;
 global.p2Playing = false;
-
-// Knife balance mini game
-global.knife_h      = sprite_get_height(knife);
-global.knife_half_w = sprite_get_width(knife)/2;
-global.hand_h       = sprite_get_height(hand);
-global.hand_half_w  = sprite_get_width(hand)/2
-global.wall_h       = sprite_get_height(wall);
-global.wall_half_w  = sprite_get_width(wall)/2
-
-global.wall1_x  = view_xview[1]/2 - global.wall_half_w;
-global.wall2_x  = view_xview[1] + view_xview[1]/2 - global.wall_half_w;
-global.wall_y   = view_hview[0]/2;
-
-global.hand1_x  = view_xview[1]/2 - global.hand_half_w;
-global.hand2_x  = view_xview[1] + view_xview[1]/2 - global.hand_half_w;
-global.hand_y   = view_hview[0]/2 - global.hand_h;
-
-global.knife1_x = global.hand1_x + global.knife_half_w;
-global.knife2_x = global.hand2_x + global.knife_half_w;
-global.knife_y  = global.hand_y - (global.knife_h + 5);
 
 //Devil Escape mini game
 global.devilSpeed = 3;
