@@ -48,4 +48,7 @@ else{
         image_speed=0.65;
         sprite_index=wizard_left_sp;    
     }
+    else{
+        image_speed = 0;
+    }
 }

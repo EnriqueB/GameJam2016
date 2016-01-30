@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\chicken_snd</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
     <sprite>sprites\enrique</sprite>
