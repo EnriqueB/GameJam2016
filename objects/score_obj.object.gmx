@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.score1=0;
-global.score2=0;
+            <string>initGlobalVariables();
 </string>
           </argument>
         </arguments>
