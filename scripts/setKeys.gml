@@ -1,8 +1,4 @@
-globalvar keys;
-globalvar indexLetter;
-globalvar indexNumber;
 randomize();
-
 global.indexLetter = 0;
 global.indexNumber = 0;
 

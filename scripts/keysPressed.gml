@@ -92,11 +92,11 @@ if(keyboard_check(ord('M')) && global.keys[1,global.indexNumber] == 'M') {
     }*/
     
 if(global.indexLetter == 9) {
-    global.score1 += 100;
+    updateScore(1, 100);
     instance_destroy();
 }
 
 if(global.indexNumber == 9) {
-    global.score2 += 100;
+    updateScore(2, 100);
     instance_destroy();
 }
