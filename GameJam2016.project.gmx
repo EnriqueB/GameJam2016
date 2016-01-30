@@ -11,6 +11,7 @@
     <sprite>sprites\ball</sprite>
     <sprite>sprites\rectangle_sp</sprite>
     <sprite>sprites\play_button</sprite>
+    <sprite>sprites\blank_tile</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
