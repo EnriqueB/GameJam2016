@@ -15,9 +15,15 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\keysPressed.gml</script>
     <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
+    <scripts name="keyPressedMiniGame">
+      <script>scripts\keysPressed.gml</script>
+      <script>scripts\setKeys.gml</script>
+      <script>scripts\drawKeyPressedMiniGame.gml</script>
+      <script>scripts\chooseRandomLetterP1.gml</script>
+      <script>scripts\chooseRandomLetterP2.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
