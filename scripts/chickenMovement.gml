@@ -11,21 +11,17 @@ speed = 5;
 difX = x - player.x;
 difY = y - player.y;
 transform = 0;
-player =1;
+playerValue =1;
 if(x>view_xview[1]){
     transform=500;
-    player=2;
+    playerValue=2;
 }
 
 if(abs(difX)<20 && abs(difY)<20){
     //collision
     //score function
-    updateScore(player, 100);
-    var controller = instance_nearest(x,y, miniGameController_obj);
+    updateScore(playerValue, 100);
     with(instance_nearest(x, y, player_obj)){
-        instance_destroy();
-    }
-    with(controller){
         instance_destroy();
     }
     instance_destroy();
