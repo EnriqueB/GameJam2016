@@ -18,6 +18,7 @@
     <script>scripts\keysPressed.gml</script>
     <script>scripts\catchChicken.gml</script>
     <script>scripts\playerMovement.gml</script>
+    <script>scripts\chickenMovement.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
