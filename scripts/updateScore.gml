@@ -5,8 +5,18 @@
 int_player = argument0;
 int_score_change = argument1;
 
+if (int_player == 1 and global.scoreModifierP1 == -1) { 
+// Attack mode, deduct points to player 2.
+    int_player = 2;
+    int_score_change = int_score_change * -1;
+} else if (int_player == 2 and global.scoreModifierP2 == -1) { 
+// Attack mode, deduct points to player 1.
+    int_player = 1;
+    int_score_change = int_score_change * -1;
+}
+
 if (int_player == 1) {
-    
+        
     updated_score = validateAndReturnScore(global.score1 + int_score_change);
     if ( updated_score == -1 ) {
         // player won
