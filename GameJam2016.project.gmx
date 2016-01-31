@@ -12,6 +12,8 @@
     <sound>sound\grunt</sound>
     <sound>sound\musicMenu_snd</sound>
     <sound>sound\musicGame_snd</sound>
+    <sound>sound\pass_snd</sound>
+    <sound>sound\trueEnding_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
@@ -53,6 +55,8 @@
     <sprite>sprites\barsLoading_sp</sprite>
     <sprite>sprites\barEmpty_sp</sprite>
     <sprite>sprites\buttons_select_minigame</sprite>
+    <sprite>sprites\magicianBlueAttack_sp</sprite>
+    <sprite>sprites\magicianPurpleAttack_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -128,6 +132,7 @@
     <object>objects\john_cena_btn_obj</object>
     <object>objects\musicMenu_obj</object>
     <object>objects\musicGame_obj</object>
+    <object>objects\trueEnding_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
