@@ -53,27 +53,36 @@ global.hand_h       = sprite_get_height(hand);
 global.hand_half_w  = sprite_get_width(hand)/2
 global.wall_h       = sprite_get_height(wall);
 global.wall_half_w  = sprite_get_width(wall)/2
+global.block_h       = sprite_get_height(block);
+global.block_half_w  = sprite_get_width(block)/2
 
 global.wall1_x  = view_xview[1]/2;
 global.wall2_x  = view_xview[1] + view_xview[1]/2;
-global.wall_y   = view_hview[0]/2 + 45;
+global.wall_y   = view_hview[0]/2;
 
 global.hand1_x  = view_xview[1]/2;
+global.block1L_x = global.wall1_x - global.wall_half_w - global.block_half_w;
+global.block1R_x = global.wall1_x + global.wall_half_w + global.block_half_w;
 global.hand2_x  = view_xview[1] + view_xview[1]/2;
-global.hand_y   = view_hview[0]/2 - global.hand_h + 38;
+global.block2L_x = global.wall2_x - global.wall_half_w - global.block_half_w;
+global.block2R_x = global.wall2_x + global.wall_half_w + global.block_half_w;
+global.hand_y   = view_hview[0]/2 - global.hand_h;
 
 global.knife1_x = global.hand1_x;
 global.knife2_x = global.hand2_x;
-global.knife_y  = global.hand_y - (global.knife_h/2 + 2) + 38;
+global.knife_y  = global.hand_y - (global.knife_h/2 + 2);
 
 globalvar id_knife1;
 globalvar id_hand1;
 globalvar id_wall1;
+globalvar id_block1L;
+globalvar id_block1R;
 
 globalvar id_knife2;
 globalvar id_hand2;
 globalvar id_wall2;
-
+globalvar id_block2L;
+globalvar id_block2R;
 
 //Devil Escape mini game
 global.devilSpeed = 3;

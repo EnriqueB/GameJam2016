@@ -37,6 +37,7 @@
     <sprite>sprites\demon_down_sp</sprite>
     <sprite>sprites\demon_right_sp</sprite>
     <sprite>sprites\demon_left_sp</sprite>
+    <sprite>sprites\block</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -103,6 +104,7 @@
     <object>objects\go_back_instr_object</object>
     <object>objects\wizard_player1</object>
     <object>objects\wizard_player2</object>
+    <object>objects\obj_block</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
