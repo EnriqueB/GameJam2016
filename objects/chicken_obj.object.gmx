@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>chicken_left_sp</sprite>
+            <sprite>chicken_down_sp</sprite>
           </argument>
           <argument>
             <kind>0</kind>
