@@ -169,7 +169,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>chicken_snd</sound>
           </argument>
         </arguments>
       </action>
@@ -203,7 +203,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>chicken_snd</sound>
           </argument>
           <argument>
             <kind>3</kind>
