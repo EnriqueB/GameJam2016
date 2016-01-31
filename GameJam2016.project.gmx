@@ -29,6 +29,14 @@
     <sprite>sprites\ritual_wizard_blue</sprite>
     <sprite>sprites\ritual_wizard_purple</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\wizard2_down_sp</sprite>
+    <sprite>sprites\wizard2_up_sp</sprite>
+    <sprite>sprites\wizard2_left_sp</sprite>
+    <sprite>sprites\wizard2_right_sp</sprite>
+    <sprite>sprites\demon_up_sp</sprite>
+    <sprite>sprites\demon_down_sp</sprite>
+    <sprite>sprites\demon_right_sp</sprite>
+    <sprite>sprites\demon_left_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -58,6 +66,9 @@
       <script>scripts\initKnifeBalance.gml</script>
       <script>scripts\movePaddleLeft.gml</script>
       <script>scripts\movePaddleRight.gml</script>
+      <script>scripts\randomToppleKnife.gml</script>
+      <script>scripts\loseAndClean.gml</script>
+      <script>scripts\winAndClean.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">

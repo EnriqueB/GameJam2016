@@ -50,22 +50,8 @@ initKnifeBalance();
           <argument>
             <kind>1</kind>
             <string>///Destroy closest knife, hand and walls
+winAndClean();
 
-with (instance_nearest(x,y,obj_knife)) {
-    instance_destroy();
-}
-with (instance_nearest(x,y,obj_hand)) {
-    instance_destroy();
-}
-with (instance_nearest(x,y,obj_wall)) {
-    instance_destroy();
-}
-
-if (x &lt; view_xview[1]) {
-    global.state_player1 = 0;
-} else {
-    global.state_player2 = 0;
-}
 
 
 </string>

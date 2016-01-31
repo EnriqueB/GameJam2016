@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Define paddle movement speed
-impulse = 8;
+impulse = 16;
 </string>
           </argument>
         </arguments>
@@ -88,13 +88,13 @@ if (x &lt; view_xview[1]){
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>0.800000011920929</PhysicsObjectFriction>
+  <PhysicsObjectFriction>60</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
-    <point>64,0</point>
-    <point>64,16</point>
-    <point>0,16</point>
+    <point>152,0</point>
+    <point>152,48</point>
+    <point>0,48</point>
   </PhysicsShapePoints>
 </object>

@@ -3,6 +3,27 @@ spd = global.devilSpeed + 1;
 
 angle = point_direction(x, y, player.x, player.y);
 
+if angle >= 45 && angle < 135 {
+    //look up
+    sprite_index = demon_up_sp;
+    image_speed = 0.5
+}
+else if angle >=135 && angle < 225{
+    //look left
+    sprite_index = demon_left_sp;
+    image_speed = 0.5;
+}
+else if angle >= 225 && angle < 315{
+    //look down
+    sprite_index = demon_down_sp;
+    image_speed = 0.5;
+}
+else{
+    //look look right
+    sprite_index = demon_right_sp;
+    image_speed = 0.5;
+}
+
 velX = cos(degtorad(angle))*spd;
 velY = -sin(degtorad(angle))*spd;
 
