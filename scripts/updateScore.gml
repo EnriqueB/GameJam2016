@@ -22,6 +22,7 @@ if (int_player == 1) {
         // player won
         global.scoreColor1 = global.scoreColorWin;
         global.score1 = global.winningScore;
+        room_goto(room5);
     } else {
         // just update score
         global.score1 = updated_score;  
@@ -34,6 +35,7 @@ if (int_player == 1) {
         // player won
         global.scoreColor2 = global.scoreColorWin;
         global.score2 = global.winningScore;
+        room_goto(room5);
     } else {
         // just update score
         global.score2 = updated_score;  
