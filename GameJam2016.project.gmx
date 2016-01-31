@@ -60,6 +60,7 @@
     <background>background\background0</background>
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -129,8 +130,10 @@
     <object>objects\john_cena_screen_obj</object>
     <object>objects\john_cena_btn_obj</object>
     <object>objects\trueEnding_obj</object>
+    <object>objects\game_jam_screen</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room7</room>
     <room>rooms\room1</room>
     <room>rooms\room0</room>
     <room>rooms\room2</room>

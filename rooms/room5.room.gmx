@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="john_cena_screen_obj" x="288" y="224" name="inst_BE195492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="john_cena_btn_obj" x="896" y="672" name="inst_01BE52BF" locked="0" code="" scaleX="6.5" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="john_cena_btn_obj" x="512" y="384" name="inst_01BE52BF" locked="0" code="" scaleX="32.1290321350098" scaleY="-24.4375" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

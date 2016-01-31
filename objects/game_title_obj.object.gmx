@@ -29,7 +29,7 @@
 draw_set_color(c_red);
 
 // draws game title
-draw_text(250, 100, "NEVER WINNING GAME");
+draw_text_transformed(100, 100, "Seen a Demon?", 2, 2, 1);
 </string>
           </argument>
         </arguments>
