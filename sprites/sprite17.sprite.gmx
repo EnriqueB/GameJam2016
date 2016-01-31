@@ -8,16 +8,30 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
+<<<<<<< HEAD
   <bbox_right>0</bbox_right>
   <bbox_top>0</bbox_top>
   <bbox_bottom>0</bbox_bottom>
+=======
+  <bbox_right>63</bbox_right>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>31</bbox_bottom>
+>>>>>>> c88dfdce1ee9fa7b703133068cf6e53f2c3fb70b
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
+<<<<<<< HEAD
   <width>32</width>
   <height>32</height>
   <frames/>
+=======
+  <width>64</width>
+  <height>32</height>
+  <frames>
+    <frame index="0">images\sprite17_0.png</frame>
+  </frames>
+>>>>>>> c88dfdce1ee9fa7b703133068cf6e53f2c3fb70b
 </sprite>
