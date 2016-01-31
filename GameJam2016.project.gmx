@@ -10,6 +10,8 @@
     <sound>sound\ting_snd</sound>
     <sound>sound\devil_snd</sound>
     <sound>sound\grunt</sound>
+    <sound>sound\pass_snd</sound>
+    <sound>sound\trueEnding_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
@@ -51,6 +53,8 @@
     <sprite>sprites\barsLoading_sp</sprite>
     <sprite>sprites\barEmpty_sp</sprite>
     <sprite>sprites\buttons_select_minigame</sprite>
+    <sprite>sprites\magicianBlueAttack_sp</sprite>
+    <sprite>sprites\magicianPurpleAttack_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -124,6 +128,7 @@
     <object>objects\credit_screen_obj</object>
     <object>objects\john_cena_screen_obj</object>
     <object>objects\john_cena_btn_obj</object>
+    <object>objects\trueEnding_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
