@@ -53,6 +53,16 @@ if(global.p1Playing && x < view_xview[1]) {
                 audio_stop_sound(ting_snd);
                 audio_play_sound(ting_snd,0, false);
     }
+    
+    if(global.indexLetter == 9) {
+        updateScore(1, 100);
+        global.indexLetter = 0;
+        global.p1Playing = false;
+        global.state_player1 = 0;
+        with(global.id_frame_player1) instance_destroy();
+        with(global.game1) instance_destroy();
+        with(global.minigame_timer1) instance_destroy();
+    }
 }
 
 // Check if numbers are pressed and correspond to the random order chosen before by the minigame script
@@ -110,6 +120,16 @@ if(global.p2Playing && x > view_xview[1]) {
                 audio_stop_sound(ting_snd);
                 audio_play_sound(ting_snd,0, false);
     }
+    
+    if(global.indexNumber == 9) {
+        updateScore(2, 100);
+        global.indexNumber = 0;
+        global.p2Playing = false;
+        global.state_player2 = 0;
+        with(global.id_frame_player2) instance_destroy();
+        with(global.game2) instance_destroy();
+        with(global.minigame_timer2) instance_destroy();
+    }
 }
     /*
     if(keyboard_check_pressed_release(vk_left)){
@@ -130,23 +150,3 @@ if(global.p2Playing && x > view_xview[1]) {
         }
            instance_destroy();
     }*/
-    
-if(global.indexLetter == 9) {
-    updateScore(1, 100);
-    global.indexLetter = 0;
-    global.p1Playing = false;
-    global.state_player1 = 0;
-    with(global.id_frame_player1) instance_destroy();
-    with(global.game1) instance_destroy();
-    with(global.minigame_timer1) instance_destroy();
-}
-
-if(global.indexNumber == 9) {
-    updateScore(2, 100);
-    global.indexNumber = 0;
-    global.p2Playing = false;
-    global.state_player2 = 0;
-    with(global.id_frame_player2) instance_destroy();
-    with(global.game2) instance_destroy();
-    with(global.minigame_timer2) instance_destroy();
-}
