@@ -176,9 +176,11 @@ else{
             <string>draw_set_font(font_Jing_Jing);
 draw_set_color(c_yellow);
 if(x &lt; view_xview[1]){ // player 1 
-    draw_text_transformed(170, 200, "Run! ( Use WASD )", .4, .4, 1);   
+    draw_text_transformed(200, 200, "Run!", .4, .4, 1);  
+    draw_sprite(wasd,0,325, 200);   
 } else { // player 2
-    draw_text_transformed(170+view_xview[1], 200, "Run! ( Use IJKL )", .4, .4, 1);
+    draw_text_transformed(200+view_xview[1], 200, "Run!", .4, .4, 1);
+    draw_sprite(jkli,0,325+view_xview[1], 200);
 }
 
 </string>

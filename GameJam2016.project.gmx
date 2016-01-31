@@ -38,6 +38,10 @@
     <sprite>sprites\demon_right_sp</sprite>
     <sprite>sprites\demon_left_sp</sprite>
     <sprite>sprites\block</sprite>
+    <sprite>sprites\wasd</sprite>
+    <sprite>sprites\jkli</sprite>
+    <sprite>sprites\jl</sprite>
+    <sprite>sprites\ad</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

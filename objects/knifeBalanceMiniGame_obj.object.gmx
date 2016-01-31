@@ -80,11 +80,13 @@ winAndClean();
 draw_set_font(font_Jing_Jing);
 draw_set_color(c_yellow);
 if(x &lt; view_xview[1]){ // player 1 
-    draw_text_transformed(75, global.wall_y + global.wall_h/2 + 40, "Balance the knife! (A=Left D=Right)", .4, .4, 1);   
+    draw_text_transformed(75, global.wall_y + global.wall_h/2 + 40, "Balance the knife!", .4, .4, 1);   
+    draw_sprite(ad,0,325, global.wall_y+global.wall_h/2+40); 
 } else { // player 2
-    draw_text_transformed(75+view_xview[1], global.wall_y + global.wall_h/2 + 40, "Balance the knife! (J=Left L=Right)", .4, .4, 1);
+    draw_text_transformed(75+view_xview[1], global.wall_y + global.wall_h/2 + 40, "Balance the knife!", .4, .4, 1);
+    draw_sprite(jl,0,325+view_xview[1], global.wall_y+global.wall_h/2+40);
 }
-
+    
 </string>
           </argument>
         </arguments>

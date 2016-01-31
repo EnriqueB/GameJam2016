@@ -274,9 +274,11 @@
             <string>draw_set_font(font_Jing_Jing);
 draw_set_color(c_yellow);
 if(x &lt; view_xview[1]){ // player 1 
-    draw_text_transformed(85, 200, "Sacrifice the chicken! ( Use WASD )", .4, .4, 1);   
+    draw_text_transformed(100, 200, "Sacrifice the chicken!", .4, .4, 1);
+    draw_sprite(wasd,0,325, 200);   
 } else { // player 2
-    draw_text_transformed(85+view_xview[1], 200, "Sacrifice the chicken! ( Use IJKL )", .4, .4, 1);
+    draw_text_transformed(100+view_xview[1], 200, "Sacrifice the chicken!", .4, .4, 1);
+    draw_sprite(jkli,0,325+view_xview[1], 200);
 }
 
 </string>
