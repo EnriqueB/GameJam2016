@@ -98,9 +98,9 @@ if (string_length(seconds) &lt; 2) {
 draw_set_font(font_time)
 draw_set_color(c_black);
 if(x &lt; view_xview[1]) {
-    draw_text_transformed(250, 160, minutes+':'+seconds, .5, .5, 1);
+    draw_text_transformed(220, 160, minutes+':'+seconds, .5, .5, 1);
 } else {
-    draw_text_transformed(250 + view_xview[1], 160, minutes+':'+seconds, .5, .5, 1);
+    draw_text_transformed(220 + view_xview[1], 160, minutes+':'+seconds, .5, .5, 1);
     }
 </string>
           </argument>
