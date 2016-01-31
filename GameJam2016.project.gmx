@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\chicken_snd</sound>
     <sound>sound\gravel_walk_snd</sound>
+    <sound>sound\ting_snd</sound>
+    <sound>sound\devil_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
