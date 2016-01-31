@@ -56,15 +56,15 @@ global.wall_half_w  = sprite_get_width(wall)/2
 
 global.wall1_x  = view_xview[1]/2;
 global.wall2_x  = view_xview[1] + view_xview[1]/2;
-global.wall_y   = view_hview[0]/2;
+global.wall_y   = view_hview[0]/2 + 45;
 
 global.hand1_x  = view_xview[1]/2;
 global.hand2_x  = view_xview[1] + view_xview[1]/2;
-global.hand_y   = view_hview[0]/2 - global.hand_h;
+global.hand_y   = view_hview[0]/2 - global.hand_h + 38;
 
 global.knife1_x = global.hand1_x;
 global.knife2_x = global.hand2_x;
-global.knife_y  = global.hand_y - (global.knife_h/2 + 2);
+global.knife_y  = global.hand_y - (global.knife_h/2 + 2) + 38;
 
 globalvar id_knife1;
 globalvar id_hand1;

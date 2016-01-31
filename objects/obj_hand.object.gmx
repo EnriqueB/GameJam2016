@@ -93,8 +93,8 @@ if (x &lt; view_xview[1]){
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
-    <point>64,0</point>
-    <point>64,16</point>
-    <point>0,16</point>
+    <point>152,0</point>
+    <point>152,48</point>
+    <point>0,48</point>
   </PhysicsShapePoints>
 </object>
