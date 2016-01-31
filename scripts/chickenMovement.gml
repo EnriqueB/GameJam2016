@@ -26,10 +26,12 @@ if(abs(difX)<20 && abs(difY)<20){
     }
     if(playerValue == 1) {
         global.state_player1 = 0;
+        audio_stop_sound(global.player1SoundID);
         with(global.minigame_timer1) instance_destroy();
         with(global.id_frame_player1) instance_destroy();
     } else {
         global.state_player2 = 0;
+        audio_stop_sound(global.player2SoundID);
         with(global.minigame_timer2) instance_destroy();
         with(global.id_frame_player2) instance_destroy();
     }
