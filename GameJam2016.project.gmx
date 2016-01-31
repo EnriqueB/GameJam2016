@@ -26,7 +26,6 @@
     <sprite>sprites\chicken_right_sp</sprite>
     <sprite>sprites\chicken_up_sp</sprite>
     <sprite>sprites\chicken_down_sp</sprite>
-    <sprite>sprites\sprite17</sprite>
     <sprite>sprites\ritual_wizard_blue</sprite>
     <sprite>sprites\ritual_wizard_purple</sprite>
   </sprites>
@@ -90,7 +89,7 @@
     <object>objects\instr_screen_obj</object>
     <object>objects\game_instr_obj</object>
     <object>objects\go_back_instr_object</object>
-	<object>objects\wizard_player1</object>
+    <object>objects\wizard_player1</object>
     <object>objects\wizard_player2</object>
   </objects>
   <rooms name="rooms">
