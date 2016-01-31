@@ -52,6 +52,9 @@
       <script>scripts\initKnifeBalance.gml</script>
       <script>scripts\movePaddleLeft.gml</script>
       <script>scripts\movePaddleRight.gml</script>
+      <script>scripts\randomToppleKnife.gml</script>
+      <script>scripts\winAndClean.gml</script>
+      <script>scripts\loseAndClean.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
