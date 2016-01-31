@@ -10,6 +10,8 @@
     <sound>sound\ting_snd</sound>
     <sound>sound\devil_snd</sound>
     <sound>sound\grunt</sound>
+    <sound>sound\musicMenu_snd</sound>
+    <sound>sound\musicGame_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
@@ -124,6 +126,8 @@
     <object>objects\credit_screen_obj</object>
     <object>objects\john_cena_screen_obj</object>
     <object>objects\john_cena_btn_obj</object>
+    <object>objects\musicMenu_obj</object>
+    <object>objects\musicGame_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
