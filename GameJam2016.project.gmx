@@ -45,12 +45,16 @@
     <sprite>sprites\jkli</sprite>
     <sprite>sprites\jl</sprite>
     <sprite>sprites\ad</sprite>
+    <sprite>sprites\instructions</sprite>
+    <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\credits</sprite>
     <sprite>sprites\barsLoading_sp</sprite>
     <sprite>sprites\barEmpty_sp</sprite>
     <sprite>sprites\buttons_select_minigame</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -111,16 +115,19 @@
     <object>objects\final_screen_obj</object>
     <object>objects\instr_screen_obj</object>
     <object>objects\game_instr_obj</object>
-    <object>objects\go_back_instr_object</object>
+    <object>objects\go_back_room1_object</object>
     <object>objects\wizard_player1</object>
     <object>objects\wizard_player2</object>
     <object>objects\obj_block</object>
+    <object>objects\game_credit_obj</object>
+    <object>objects\credit_screen_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\room0</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
+    <room>rooms\room4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

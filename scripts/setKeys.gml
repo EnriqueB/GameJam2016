@@ -1,10 +1,9 @@
 randomize();
-global.indexLetter = 0;
-global.indexNumber = 0;
 
 var i; 
 for (i = 0; i < 9; i++) {
     if(x < view_xview[1]) {
+        global.indexLetter = 0;
         if (i == 0) {
             char = chooseRandomLetterP1();
             while (char == "Q") {
@@ -16,6 +15,7 @@ for (i = 0; i < 9; i++) {
         }
         global.p1Playing = true;
     } else {
+        global.indexNumber = 0;
         if (i == 0) {
             char = chooseRandomLetterP2();
             while (char == "U") {

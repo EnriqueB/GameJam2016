@@ -26,11 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_font(font_Jing_Jing);
+
+draw_set_color(c_red);
+draw_text(50, 50, "Created by");
 draw_set_color(c_yellow);
-
-draw_text(250, 300, "The Demon Won");
-
-draw_text(250, 350, "Both players lose");
+draw_text(100, 150, "Enrique Bonilla");
+draw_text(100, 200, "Beto Esquivel");
+draw_text(100, 250, "Miguel Caplloench");
+draw_text(100, 300, "Hugo Leon");
+draw_text(100, 350, "Bernardo Trevino");
 </string>
           </argument>
         </arguments>
