@@ -1,3 +1,4 @@
+
 var player = instance_nearest(x,y, player_obj);
 spd = global.devilSpeed + 1;
 
@@ -59,4 +60,5 @@ if(abs(difX)<20 && abs(difY)<20){
     }
     instance_destroy();
 }
+
 
