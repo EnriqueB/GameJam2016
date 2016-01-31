@@ -199,22 +199,22 @@
 draw_set_color(c_red);
 //if(x &lt; view_xview[1]){ // player 1 
     draw_text_transformed(325, 595, "MiniGames", .4, .4, 1);
-    draw_sprite(buttons_select_minigame,2,248, 600);   
-    draw_sprite(buttons_select_minigame,0,301, 600);
-    draw_sprite(buttons_select_minigame,3,364, 600);
-    draw_sprite(buttons_select_minigame,1,419, 600);
+    draw_sprite(buttons_select_minigame,2,248, 598);   
+    draw_sprite(buttons_select_minigame,0,301, 598);
+    draw_sprite(buttons_select_minigame,3,364, 598);
+    draw_sprite(buttons_select_minigame,1,419, 598);
     draw_sprite(buttons_select_minigame,4,333, 691);
     draw_text_transformed(305, 672, "Change Mode", .4, .4, 1);
-    draw_text_transformed(280, 693, "Summon or Attack", .4, .4, 1);
+    draw_text_transformed(280, 693, "(Summon or Attack)", .4, .4, 1);
 //} else { // player 2
     draw_text_transformed(view_xview[1]+80, 595, "MiniGames", .4, .4, 1);
-    draw_sprite(buttons_select_minigame,7,view_xview[1]+3, 600);   
-    draw_sprite(buttons_select_minigame,5,view_xview[1]+56, 600);
-    draw_sprite(buttons_select_minigame,8,view_xview[1]+119, 600);
-    draw_sprite(buttons_select_minigame,6,view_xview[1]+174, 600);
+    draw_sprite(buttons_select_minigame,7,view_xview[1]+3, 598);   
+    draw_sprite(buttons_select_minigame,5,view_xview[1]+56, 598);
+    draw_sprite(buttons_select_minigame,8,view_xview[1]+119, 598);
+    draw_sprite(buttons_select_minigame,6,view_xview[1]+174, 598);
     draw_sprite(buttons_select_minigame,9,view_xview[1]+88, 690);
     draw_text_transformed(view_xview[1]+60, 672, "Change Mode", .4, .4, 1);
-    draw_text_transformed(view_xview[1]+30, 690, "Summon or Attack", .4, .4, 1);
+    draw_text_transformed(view_xview[1]+30, 690, "(Summon or Attack)", .4, .4, 1);
 //}
 </string>
           </argument>

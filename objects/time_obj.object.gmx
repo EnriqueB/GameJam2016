@@ -54,6 +54,7 @@
             <string>global.time -=1;
 if(global.time == 0) {
     room_goto(room2);
+    audio_stop_all();
 } else {
     alarm[0] = room_speed;
 }
