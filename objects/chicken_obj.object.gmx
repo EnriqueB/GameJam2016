@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>chicken_down_sp</sprite>
+            <sprite>-100</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -169,7 +169,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>chicken_snd</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -203,7 +203,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>chicken_snd</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
