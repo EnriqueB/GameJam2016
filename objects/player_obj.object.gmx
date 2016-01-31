@@ -35,29 +35,31 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>5</kind>
-            <sprite>wizard_down_sp</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>7</string>
+            <kind>1</kind>
+            <string>if(x&lt;view_xview[0]){
+    //left side
+    sprite_index = wizard_down_sp;
+    image_speed = 0.5;
+}
+else{
+    //right
+    sprite_index = wizard2_down_sp;
+    image_speed = 0.5;
+}
+</string>
           </argument>
         </arguments>
       </action>
