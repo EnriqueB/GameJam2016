@@ -4,7 +4,7 @@
 alarm[0] = 209;
 
 ///Start game
-if(x < view_xview[1]){ // player 1    
+if(x < view_xview[1]){ // player 1 
     global.id_wall1  = instance_create(global.wall1_x,global.wall_y, obj_wall);    
     global.id_hand1  = instance_create(global.hand1_x,global.hand_y, obj_hand);
     global.id_block1L  = instance_create(global.block1L_x,global.hand_y - global.block_h/2, obj_block);
