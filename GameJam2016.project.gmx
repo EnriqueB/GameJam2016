@@ -33,6 +33,10 @@
     <sprite>sprites\wizard2_up_sp</sprite>
     <sprite>sprites\wizard2_left_sp</sprite>
     <sprite>sprites\wizard2_right_sp</sprite>
+    <sprite>sprites\demon_up_sp</sprite>
+    <sprite>sprites\demon_down_sp</sprite>
+    <sprite>sprites\demon_right_sp</sprite>
+    <sprite>sprites\demon_left_sp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
