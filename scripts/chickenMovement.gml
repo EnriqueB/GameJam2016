@@ -40,11 +40,11 @@ oldY = y;
 //move away
 if(difX > 0){
     //move to the right
-    if((x + spd)>(global.xPosition+global.mgWidth+transform-10)){
+    if((x + spd)>(global.xPosition+global.mgWidth+transform-40)){
         //wall, move up or down, depending on difY
         if(difY>0){
             //move down
-            if((y+spd)>(global.yPosition+global.mgHeight-5)){
+            if((y+spd)>(global.yPosition+global.mgHeight)){
                 //corner, move left
                 x -= spd;
             }
@@ -54,7 +54,7 @@ if(difX > 0){
         }
         else{
             //move up
-            if((y-spd)<(global.yPosition+5)){
+            if((y-spd)<(global.yPosition+40)){
                 //corner, move left
                 x -= spd;
             }
@@ -73,7 +73,7 @@ else{
         //wall, move up or down, depending on difY
         if(difY>0){
             //move down
-            if((y+spd)>(global.yPosition+global.mgHeight-5)){
+            if((y+spd)>(global.yPosition+global.mgHeight-10)){
                 //corner, move right
                 x += spd;
             }
@@ -83,7 +83,7 @@ else{
         }
         else{
             //move up
-            if((y-spd)<(global.yPosition+5)){
+            if((y-spd)<(global.yPosition+40)){
                 //corner, move right
                 x += spd;
             }
@@ -99,13 +99,13 @@ else{
 
 if(difY>0){
     //move down
-    if((y+spd)<(global.yPosition+global.mgHeight-5)){
+    if((y+spd)<(global.yPosition+global.mgHeight-10)){
         y+=spd;
     }
 }
 else{
     //move up
-    if((y-spd)>global.yPosition+5){
+    if((y-spd)>global.yPosition+40){
         y-=spd;
     }
 }

@@ -78,3 +78,7 @@ globalvar id_wall2;
 //Devil Escape mini game
 global.devilSpeed = 3;
 
+//Sound global vairables
+global.player1SoundID = 0;
+global.player2SoundID = 0;
+
