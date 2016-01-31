@@ -26,7 +26,7 @@ global.chickenSpeed = 3;
 //Scores
 global.score1 = 0;
 global.score2 = 0;
-global.winningScore = 300;
+global.winningScore = 1000;
 global.scoreModifierP1 = 1; // 1 means charge ritual, -1 means attack.
 global.scoreModifierP2 = 1;
 global.scoreColor1 = c_blue;

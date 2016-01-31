@@ -9,6 +9,7 @@
     <sound>sound\gravel_walk_snd</sound>
     <sound>sound\ting_snd</sound>
     <sound>sound\devil_snd</sound>
+    <sound>sound\grunt</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\wizard_down_sp</sprite>
@@ -47,6 +48,9 @@
     <sprite>sprites\instructions</sprite>
     <sprite>sprites\sprite34</sprite>
     <sprite>sprites\credits</sprite>
+    <sprite>sprites\barsLoading_sp</sprite>
+    <sprite>sprites\barEmpty_sp</sprite>
+    <sprite>sprites\buttons_select_minigame</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

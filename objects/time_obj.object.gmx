@@ -91,7 +91,7 @@ if (string_length(seconds) &lt; 2) {
 
 draw_set_font(font_time)
 draw_set_color(c_black);
-draw_text(440, 16, minutes+':'+seconds);
+draw_text(450, 16, minutes+':'+seconds);
 </string>
           </argument>
         </arguments>
